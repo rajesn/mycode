@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 def main():
     ## open the file
@@ -8,7 +9,7 @@ def main():
     print(datacenterstring)
     print(type(datacenterstring))           
     print("\nThe code above is string data. Python cannot easily work with this data.")
-    input("Press Enter to continue\n")            
+  #  input("Press Enter to continue")            
 
     ## Create the JSON string
     datacenterdecoded = json.loads(datacenterstring)
